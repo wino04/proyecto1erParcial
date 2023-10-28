@@ -17,13 +17,30 @@
   }
 
   body{
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 0px 50px;
+    background-color: rgb(202, 194, 194);
   }
 
-  header{
-    background-color: red;
+  header a{
+
+    font-size: 100px;
+    text-decoration: none;
+  
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
     
   }
+
+  header {
+    background-color: red;
+    padding-top: 50px;
+    text-align: center  ;
+       
+  }
+
 
   nav {
     background-color: black;
@@ -34,4 +51,26 @@
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-around;
   }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .mensaje{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    bottom: 0;
+    width: 100%;
+}
